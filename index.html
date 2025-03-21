@@ -1,0 +1,63 @@
+<！doctype html>
+< html  lang = “ zh-cn” >
+<头>
+    < meta  charset = “ utf-8” >
+    < meta  name = “ viewport”  content = “ width =设备宽度，初始尺度= 1.0” >
+    <title>我的资源导航< / title >
+    < link  rel = “ stylesheet”  href = “ style.css” >
+</ head >
+<身体>
+< div  class = “容器” >
+    < nav  class = “ sidebar”  id = “ sidebar” >
+        < ul  class = “ sidebar-nav”  id = “ sidebarnav” > </ ul >
+    </ nav >
+
+    < main  class =“ main-content” >
+        < div  class =“ search-wrapper” >
+            < div  class =“ xl-flkd” >
+                < div  class =“ xl-fl” >
+                    < =“ searchTypeSelect” class =“ sr-in-sr-for”>选择搜索方向</ label  > 
+                    < div  class = =“自定义选择”  id“ searchTypeSelect” >
+                        < div  class =搜索“ custom-select-trigger” ></ div >
+                        < div  class =“ custom-options” >
+                            < span  class = =搜索“ custom-option selected”  data-value“ info” ></ span >
+                            < span  class = =图片“ custom-option”  data-value“ image” ></ span >
+                            < span  class = =视频“ custom-option”  data-value“ video” ></ span >
+                            < span  class = =新闻“ custom-option”  data-value“ news” ></ span >
+                        </ div >
+                    </ div >
+                    < div  class =“ search-ui” >
+                        < ul  class = “ search-ui-list”  id = “ infosearchui” >
+                            < li  data-search-url = “ https://www.baidu.com/s?wd= ” >百度</li>
+                            < li  data-search-url = “ https://www.sogou.com/web?query=” >搜狗</li>
+                        </ ul >
+                        < ul  class = “ search-ui-list”  id = “ imageSearchui” 样式= “ display：none ;” >
+                            < li  data-search-url = “ https://huaban.com/search/?q= ” >花瓣</li>
+                            < li  data-search-url = “ https://www.zcool.com.cn/search/content?keyword= ” >站酷</li>
+                        </ ul >
+                        < ul  class = ==“ search-ui-list”  id“ videosearchui” 样式“ display：none ;” >
+                            < li  data-search-url =哔哩哔“ https:</li>
+                            < li  data-search-url “ >“ https:</li>
+                        </ ul >
+                        <ul class="search-ui-list" id="newsSearchUI" style="display: none;">
+                            <li data-search-url="https://news.baidu.com/ns?word=">百度新闻</li>
+                            <li data-search-url="https://news.sina.com.cn/search?q=">新浪新闻</li>
+                        </ul>
+                    </div>
+                </div>
+                <form id="searchForm" class="optimized-search-form">
+                    <label for="searchInput" class="sr-only">选择</label>
+                    <input type="text" id="searchInput" placeholder="输入关键词"
+                           class="optimized-search-input" autocomplete="off">
+                    在​ ​​​ ​​​​​​​​
+                </ form >
+            </ div >
+        </ div >
+
+        < div  class = “类别”  id = “类别” > </ div>
+    </main></main>
+</div>
+
+<script<script src =“ app.js”> </script>src="app.js"></script>
+</body>
+</html>
